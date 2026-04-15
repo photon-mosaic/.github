@@ -25,35 +25,6 @@ If you're unsure whether an issue is ready to work on, just ask!
 Some issues may be labelled as `good first issue`.
 These are especially suitable if you're new to the project, and we recommend starting there.
 
-## To contribute code
-
-### Creating a development environment
-
-It is recommended to use `conda` to install a development environment. Once you have `conda` installed, the following commands
-will create and activate a `conda` environment with the requirements needed
-for a development environment:
-
-```sh
-conda create -n photon-mosiac-env -c conda-forge python=3.12
-conda activate photon-mosiac-env
-```
-
-To install a specific project for development, clone the GitHub repository,
-and then run
-
-```sh
-pip install -e .[dev]
-```
-
-Or if using `zsh` (the default on new Apple machines):
-
-```sh
-pip install -e '.[dev]'
-```
-
-from inside the repository. This will install the package, its dependencies,
-and its development dependencies.
-
 ### Pull requests
 
 In all cases, please submit code to the main repository via a pull request. The developers recommend, and adhere,
