@@ -2,6 +2,8 @@
 
 `photon-mosaic` is a collaborative project that aims to standardise multiphoton image analysis in neuroscience. Development is currently led by the [Neuroinformatics Unit](https://github.com/neuroinformatics-unit) and the [Allen Institute for Neural Dynamics](https://github.com/AllenNeuralDynamics).
 
+<img src="././general_schematic.png">
+
 We are currently working on two repositories:
 
 - [`photon-mosaic`](https://github.com/neuroinformatics-unit/photon-mosaic) — a modular, extensible Python API package that handles all the steps required for multiphoton imaging, from image processing to signal processing, up to the extraction of ΔF/F and spikes. We aim to be inclusive of different algorithms at every step of the analysis and to ensure interoperability between tools built by different researchers. We also aim to provide tutorials, documentation, and high test coverage in order to guarantee reproducibility and standardisation, and to keep the analysis optimised from a memory-consumption perspective. Our architectural foundations are inspired by [SpikeInterface](https://github.com/SpikeInterface/spikeinterface).
